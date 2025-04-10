@@ -1,0 +1,400 @@
+/* Banner */
+
+#banner {
+  background-repeat: no-repeat;
+  top: 0;
+  background-size: 100% auto;
+  background-attachment: local;
+  text-align: center;
+}
+
+#banner h2 {
+  position: relative;
+  font-family: "Lucida Bright", serif;
+  font-size: 300%;
+  color: rgba(245, 245, 245, 1);
+}
+
+#banner p {
+  font-style: oblique;
+  color: rgba(225, 225, 225,1);
+  animation-name: theme;
+  animation-duration: 4s;
+  animation-iteration-count: infinite
+}
+
+@keyframes theme {
+  0%   {color: rgba(225, 225, 225,1);}
+  25%  {color: #FFEFD5;}
+  50%  {color: #008B8B;}
+  100% {color: #D8BFD8}
+}
+
+
+/* Home-page's main content*/
+
+.history h2, .status-quo h2, .future h2 {
+  padding: 5% 0 5% 0;
+  font-family: Georgia, serif;
+  font-size: 200%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.origin, .first-generation-robots, .second-generation-robots {
+  padding-bottom: 2%;
+}
+
+.origin h3, .first-generation-robots h3, .second-generation-robots h3,
+.modern-applications h3 {
+  margin: 3% 0 2% 20%;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  font-size: 160%;
+}
+
+.origin p, .second-generation-robots p, .first-generation-robots li,
+.modern-applications p, .status-quo p{
+  margin: 1% 23% 0 23%;
+  text-align: justify;
+  font-size: 150%;
+  color: #7FFFD4;
+
+}
+
+.first-generation-robots ul, .modern-applications {
+  margin: 3% 10% 0 10%;
+}
+
+.homepicture1, .homepicture2, .homepicture3, .homepicture4, .homepicture5 {    /* Images of home-paage */
+  margin-top: 5%;
+  width: 100%;
+}
+
+.homepicture2, .homepicture3 .homepicture4, .homepicture5 {
+  height: 33vh;
+}
+
+.h2 {
+  margin: 0 15% 8% 15%;
+  text-align: center;
+  font-size: 100%;
+}
+
+.future p {
+  margin: 1% 23% 20% 23%;
+  text-align: justify;
+  font-size: 150%;
+  color: #7FFFD4;
+}
+
+
+/* Industrial-robot's page*/
+
+.industrial-robot {
+  float: left;
+}
+
+.special-purpose-robot {
+  float: right;
+}
+
+.industrial-robot p, .special-purpose-robot p {
+  margin: 1% 0 0 0;
+    color: #ffffff;
+  font-size: 120%;
+}
+
+.industrial-robot h2, .special-purpose-robot h2 {
+  padding: 5% 0 0 0;
+  font-family: Georgia, serif;
+  font-size: 200%;
+  color: #ffffff;
+}
+
+.industrial-robot img {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.industrial-robot-p {
+  display: flex;
+  float: right;
+  background-color: rgba(150, 150, 150, 0.3);
+}
+
+.industrial-robot p, .industrial-robot p {
+  margin:auto;
+  text-align: center;
+}
+
+#military-robot h2, #medical-robot h2, #special-environment-operation-robot h2, #agriculture-and-forestry-robot h2,
+#special-robots-for-other-industrie h2   {
+    margin: 5% 0 0 0;
+    text-align: center;
+    font-size: 300%;
+}
+.special-purpose-robot img {
+  float: right;
+  width: 50%;
+  height: auto;
+}
+
+.special-purpose-robot-p {
+  display: flex;
+  margin-bottom: 3%;
+  float: left;
+  background-color: rgba(150, 150, 150, 0.3);
+}
+
+
+/* the details elements of all kinds of industrial-robot and special-purpose-robot */
+
+details {
+  margin: 10% 0 5% 0;
+  cursor: pointer;
+}
+
+details summary {
+  margin-left: 18%;
+}
+details summary h2, details summary h3 {
+  margin-left: 18%;
+  color: #ffffff;
+}
+details summary span {
+  text-align: justify;
+  font-size: 150%;
+  color: #7FFFD4;
+}
+
+details article{
+  margin: 0 20% 0 20%;
+  text-align: justify;
+  font-style: oblique;
+}
+
+#cobot {
+  margin-bottom: 15%;
+}
+
+
+/* Technology's page */
+
+.technology {
+  margin: 10% 0 10% 0;
+}
+
+.technology h2, h3 {
+  font-size: 200%;
+  color: #ffffff;
+}
+
+.technology p {
+  margin: 3% 0 5% 0;
+  text-align: justify;
+  font-size: 150%;
+  color: #7FFFD4;
+}
+
+.technology p a {
+  text-decoration: underline;
+  color: #7FFFD4;
+}
+
+.ab {
+  background-color: rgba(200, 200, 200, 0.3);
+  border-radius: 27%;
+}
+
+.ab:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+
+}
+
+
+/* Releevant Enterprise's page */
+
+.enterprise {
+    width: 100%;
+    border-collapse: collapse; /* combine borders */
+    margin: 20px 0;
+}
+
+.enterprise th,
+.enterprise td {
+  margin: 6% 0;
+  font-size: 140%;
+  color: #ffffff;
+  border: 1px solid #ddd; /* cell border */
+  padding: 1%;
+  text-align: center;
+}
+
+.enterprise h3 {
+    background-color: rgba(105, 105, 105, 1);
+}
+
+/* "Image and Text Styles */
+.enterprise img {
+    max-width: 100%; /* Maximum Image Width */
+    height: auto; /* Image Height Auto-Adjusts */
+}
+
+.enterprise p {
+    margin: 6% 0;
+    font-size: 60%;
+    font-style: oblique;
+    color: #dddddd;
+}
+
+
+/* About's page */
+
+.about {
+  margin-top: 10%;
+  display: flex; /* Use Flexbox Layout */
+  align-items: center; /* Vertical Center Alignment */
+  justify-content: space-between; /* Evenly distribute spacing between elements */
+}
+
+
+.about img {
+  width: 25%; /* Image width */
+  height: 100vh;
+}
+
+.paragragh {
+    padding: 0 20px; /* Spacing between text area and image */
+}
+
+
+.about p {
+    font-family: Amiri, Georgia, "Times New Roman", serif;
+    font-size: 150%;
+  margin: 1% 0 1% 0;
+}
+
+.about b {
+  font-size: 110%;
+}
+
+
+/* footer */
+
+/* Footer Basic Styles */
+footer {
+    background-color: #333; /* Dark Background */
+    color: #fff; /* Light Text */
+    padding: 1% 0; /* Vertical Padding */
+    font-size: 100%; /* Default Font Size */
+    border-top: 0.1vh solid #444; /* Top Border */
+    clear: both; /* Clear Float */
+}
+
+/* Bottom Navigation Style */
+.bottom-navigation {
+    max-width: 1200px; /* Maximum Width */
+    margin: 0 auto; /* Horizontal Center */
+    padding: 0 20px; /* Horizontal Padding */
+    text-align: center; /* Centered Links */
+}
+
+.bottom-navigation a {
+    display: inline-block; /* Inline-block Display */
+    margin: 0 10px; /* Link Spacing */
+    padding: 8px 0; /* Vertical Padding */
+    color: #fff; /* White Text */
+    text-decoration: none; /* No Underline */
+    transition: color 0.3s ease; /* Color Transition */
+}
+
+.bottom-navigation a:hover {
+    color: #aaa; /* Hover Color Change */
+    text-decoration: underline; /* Underline */
+}
+
+/* Footer's Copyright and Contact Information Style */
+footer  {
+    display: block; /* Block Display */
+    max-width: 100%; /* Maximum Width */
+    margin: 20px auto; /* Horizontal Centering */
+    line-height: 1.6; /* Line Height */
+    text-align: center; /* Text Center */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    margin: 10px 0; /* Paragraph Spacing */
+    font-size: 50%;
+}
+
+footer a {
+    color: #aaa; /* Light Colored Links */
+    text-decoration: none; /* No Underline */
+    transition: color 0.3s ease; /* Color Transition */
+}
+
+footer a:hover {
+    color: #fff; /* Hover Color Change */
+    text-decoration: underline; /* Underline */
+}
+
+#form-section h2, #video-section h2, #canvas-section h2 {
+    text-align: center;
+    font-size: 300%;
+}
+
+#land.html main{
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  body {
+    padding: 0 10px; /* Container Padding on Small Screens */
+  }
+
+  h1 {
+    font-size: 1.75em; /* Main Heading Size on Small Screens */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Subheading Size on Small Screens */
+  }
+
+  p {
+    font-size: 15px; /* Paragraph Font Size on Small Screens */
+  }
+
+  .enterprise td,
+  .enterprise th {
+      display: block; /* Stacking Cell Content on Small Screens */
+      width: 100%;
+  }
+
+  .about {
+    flex-direction: column; /* Stacked Layout on Small Screens */
+    align-items: center;
+  }
+
+  .about image {
+    width: 50%; /* Image Width Adjustment on Small Screens */
+    margin-bottom: 20px; /* Spacing Between Images */
+  }
+
+  .about p {
+    text-align: center; /* Text Centered Display */
+  }
+
+
+  footer {
+    padding: 10px 0; /* Padding on Small Screens */
+  }
+
+  .bottom-navigation a, footer p {
+    font-size: 12px; /* Font Size on Small Screens */
+  }
+}
