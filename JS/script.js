@@ -6,7 +6,7 @@ $(document).ready(function () {
         alert(`Thank you for signing up, ${username}!`);
 
         // Redirect to Home.html after the alert is closed
-        window.location.href = 'views/Home.html';
+        window.location.href = 'Home.html';
     });
 
     // Canvas drawing
