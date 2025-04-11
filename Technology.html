@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> <!--Language is English, and the direction of text is left to right-->
+
+<head>
+  <meta charset="utf-8"> <!--UTF-8 encoding-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,
+        minimum-scale=0.5, maximum=1.5, user-scalable=yes"> <!--viewport attributes-->
+  <meta name="description" content="robot">
+  <meta name="keywords" content="robot">
+  <title>Robots</title>
+  <link rel="stylesheet" href="bootstrap-5.3.3/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="CSS/theme.css">
+  <link rel="stylesheet" href="CSS/font.css">
+</head>
+
+<body>
+  <header>
+    <h1><a href="Home.html">ROBOT</a></h1>
+    <nav class="main-navigation">
+      <ul>
+        <li><a href="Home.html">HOME</a></li>
+        <li><a href="Types.html">TYPES</a></li>
+        <li><a href="Technology.html">TECHNOLOGY</a></li>
+        <li><a href="Relevant-enterprise.html">RELEVANT ENTERPRISE</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <nav class="breadcrumb-navigation">
+    <ol>
+      <li><a href="Home.html">HOME</a></li>
+      <li>
+        <p>TECHNOLOGY</p>
+      </li>
+    </ol>
+  </nav>
+  <section>
+    <div id="banner">
+      <h2>The Art of Robot Technology</h2>
+      <p>Robotics is an interdisciplinary field involving a multitude of technologies.</p>
+    </div>
+    <div class="technology">
+      <div class="navigation-and-positioning.">
+        <h2>Navigation and Positioning</h2>
+        <p>In practical applications, robots often need to be able to move
+          autonomously. Therefore, they must know their own location, have a map
+          of the environment, and be able to navigate and plan routes based on
+          this information. Navigation and positioning technologies are the
+          keys to endowing robots with this kind of perceptual and action capability.
+        </p>
+        <h3>SLAM</h3>
+        <img src="assetes/Technology/slam.jpg" alt="SLAM">
+        <p><a href="https://openslam-org.github.io/" target="_blank" class="ab"><abbr
+              title="Simultaneous Localization and Mapping">SLAM</abbr></a> is a
+          computer vision and machine learning technology that simultaneously
+          achieves the localization of robots and the construction of environmental
+          maps. SLAM technology has been widely applied in many scenarios,
+          such as autonomous driving, inspection robots, and home service
+          robots. The core idea of SLAM technology is to observe feature points
+          and landmarks in the environment and continuously update the robot's
+          own position and environmental map based on its motion status.
+          This method allows robots to act autonomously in unknown environments
+          and build accurate maps during the process.
+        </p>
+      </div>
+      <div class="path-planning-algorithms">
+        <h2>Path Planning Algorithms</h2>
+        <img src="assetes/Technology/path-planning-algorithms.jpg" alt="Path Planning Algorithms">
+        <p>In practical applications, robots often work in unknown or dynamically
+          changing environments. To ensure that the robot can reach the target
+          location and complete the task smoothly,
+          <a href="https://github.com/zhm-real/PathPlanning" target="_blank" class="ab">path planning</a>
+          technology is integrated into the robot. This enables the robot to execute
+          tasks more reliably and reduces the likelihood of errors and failures.
+        </p>
+      </div>
+      <div class="ros">
+        <h2>ROS</h2>
+        <img src="assetes/Technology/ros.jpg" alt="ROS">
+        <p>
+          <a href="https://www.ros.org/" target="_blank"><abbr title="Robot Operating System" class="ab">ROS</abbr></a>
+          is an open-source meta-operating system framework designed specifically for robot software development. It
+          provides services similar to those of an operating system, including hardware abstraction, management of
+          low-level drivers, execution of common functions, inter-process messaging, and package management. The main
+          goal of ROS is to improve the software reusability in robot development and simplify the complexity and
+          difficulty of creating complex and robust robot behaviors across different robot platforms.
+        </p>
+      </div>
+      <div class="msif">
+        <h2>MSIF</h2>
+        <p><a href="https://blog.csdn.net/xhtchina/article/details/123436248" target="_blank"><abbr
+              title="Multi-sensor Information Fusion" class="ab">MSIF</abbr></a> is a process that uses computer
+          technology to automatically analyze and comprehensively process information and data from multiple sensors or
+          sources under certain criteria. The purpose of this technology is to make the required decisions and estimates
+          to improve the level of system intelligence. In robots, this technology enhances the reliability and
+          robustness of the system during operation, increases the credibility of data, and improves accuracy. It also
+          reduces the uncertainty of information, expands the system's temporal and spatial coverage, and increases the
+          system's real-time performance and information utilization rate.
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer> <!--Footer-->
+    <nav class="bottom-navigation"> <!--bottom-navigation-->
+      <a href="Home.html">Hmoe</a>
+      <a href="Types.html">Types</a>
+      <a href="Technology.html">Technology</a>
+      <a href="Relevant-enterprise.html">Relevant enterprise</a>
+      <a href="About.html">About</a>
+    </nav>
+    <p>Author: Yucheng Xia</p> <!--Personal information-->
+    <p>Address: SWJTU-LEEDS JOINT SCHOOL</p>
+    <p>Contact: <a href="mailto:sc23y3x@leeds.ac.uk">sc23y3x@leeds.ac.uk</a></p>
+  </footer>
+  <script src="JS/script.js"></script>
+  <script src="bootstrap-5.3.3/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
