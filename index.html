@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Web Project</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-5.3.3/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="JS/script.js" defer></script>
+  <link rel="stylesheet" href="CSS/theme.css">
+  <link rel="stylesheet" href="CSS/font.css">
+</head>
+
+<body>
+  <header>
+    <h1><a href="views/Home.html">ROBOT</a></h1>
+    <nav class="main-navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="views/Home.html">HOME</a></li>
+        <li><a href="views/Types.html">TYPES</a></li>
+        <li><a href="views/Technology.html">TECHNOLOGY</a></li>
+        <li><a href="views/Relevant-enterprise.html">RELEVANT ENTERPRISE</a></li>
+        <li><a href="views/About.html">ABOUT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="banner" class="text-center">
+    <h2>Welcome to the Robot World</h2>
+    <p>Your journey to interactive web experiences begins here.</p>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Modal body...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section id="form-section">
+      <h2>Sign Up</h2>
+      <form id="signup-form" action="views/Home.html" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+
+    <section id="video-section">
+      <h2>Learn More</h2>
+      <video controls>
+        <source src="assetes/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="canvas-section">
+      <h2>Interactive Graphics</h2>
+      <canvas id="interactive-canvas" width="300" height="150" style="border:1px solid #000;"></canvas>
+    </section>
+  </main>
+
+  <footer> <!--Footer-->
+    <nav class="bottom-navigation"> <!--bottom-navigation-->
+      Home
+      Types
+      Technology
+      Relevant enterprise
+      About
+    </nav>
+    <p>Author: Yucheng Xia</p> <!--Personal information-->
+    <p>Address: SWJTU-LEEDS JOINT SCHOOL</p>
+    <p>Contact: <a href="mailto:sc23y3x@leeds.ac.uk">sc23y3x@leeds.ac.uk</a></p>
+  </footer>
+
+  <!-- Bootstrap JS and its dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="bootstrap-5.3.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.0/dist/sweetalert2.all.min.js"></script>
+
+</body>
+
+</html>
